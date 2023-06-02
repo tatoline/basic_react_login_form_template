@@ -1,0 +1,27 @@
+.react-button {
+    text-transform: uppercase;
+    outline: none;
+    width: max-content;
+    color: #fff;
+    background-color: #76b;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+    transition: all .3s ease;
+    cursor: pointer;
+    border-radius: 10px 0 10px 0;
+}
+
+.react-button:hover, .react-button:focus, .react-button:active {
+    background-color: #6b5ca8;
+}
+
+.react-button-disabled {
+    cursor: not-allowed;
+    background-color: rgb(172, 163, 206);
+}
+
+.react-button-disabled:hover, .react-button-disabled:focus, .react-button-disabled:active {
+    background-color: rgb(172, 163, 206);
+}
