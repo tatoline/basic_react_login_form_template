@@ -29,11 +29,6 @@ function App() {
       setLoginForm({...loginForm, username: username})
       // setLoginForm({username: username, password: loginForm.password})  // This is an alternative usage
     }
-
-
-    username.indexOf(' ') >= 0 ? setWarning('Username cannot include space character!') : setWarning('');
-    setLoginForm({...loginForm, username: username})
-    // setLoginForm({username: username, password: loginForm.password})  // This is an alternative usage
   }
 
   const checkPassword = (e) => {
